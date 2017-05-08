@@ -5,8 +5,9 @@
       "dark-side-of-the-moon-syntax"
     ]
   editor:
-    fontSize: 12
     invisibles: {}
     lineHeight: 1.4
   "exception-reporting":
     userId: "9584d98e-c58b-450b-b6d9-001d23f045d8"
+  welcome:
+    showOnStartup: false
