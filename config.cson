@@ -1,13 +1,31 @@
 "*":
   core:
+    telemetryConsent: "no"
     themes: [
-      "atom-dark-ui"
+      "native-ui"
       "dark-side-of-the-moon-syntax"
     ]
   editor:
     invisibles: {}
     lineHeight: 1.4
+    preferredLineLength: 999
+    showInvisibles: true
+    softWrap: true
+    tabLength: 4
+    tabType: "soft"
   "exception-reporting":
     userId: "9584d98e-c58b-450b-b6d9-001d23f045d8"
+  minimap:
+    plugins:
+      "git-diff": true
+      "git-diffDecorationsZIndex": 0
+      "minimap-autohide": true
+      "minimap-autohideDecorationsZIndex": 0
+  pigments:
+    markerType: "background"
+  "sync-settings":
+    _lastBackupHash: "b907fda0b3447c306c33a72bd75772ccb5e3d996"
+    gistId: "2bcc22cea2acf4c2905c3c6437a31e58"
+    personalAccessToken: "cdb0a2d54c8a3720d07b34d3adc8e88df8ab4ee9"
   welcome:
     showOnStartup: false
