@@ -1,5 +1,8 @@
 "*":
   core:
+    disabledPackages: [
+      "outline-selection"
+    ]
     telemetryConsent: "no"
     themes: [
       "native-ui"
@@ -15,6 +18,8 @@
     tabType: "soft"
   "exception-reporting":
     userId: "9584d98e-c58b-450b-b6d9-001d23f045d8"
+  fonts:
+    fontFamily: "Roboto Mono"
   minimap:
     plugins:
       "git-diff": true
@@ -24,8 +29,8 @@
   pigments:
     markerType: "background"
   "sync-settings":
-    _lastBackupHash: "b907fda0b3447c306c33a72bd75772ccb5e3d996"
+    _lastBackupHash: "415f75c20f0fc4a29ee725f539f83db32899d6b5"
     gistId: "2bcc22cea2acf4c2905c3c6437a31e58"
-    personalAccessToken: "cdb0a2d54c8a3720d07b34d3adc8e88df8ab4ee9"
+    personalAccessToken: "44fc067fe19e566d291a244e53cd269156775f11"
   welcome:
     showOnStartup: false
