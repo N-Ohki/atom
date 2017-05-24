@@ -1,7 +1,14 @@
 "*":
+  "color-picker":
+    preferredFormat: "HEX"
   core:
+    closeDeletedFileTabs: true
     disabledPackages: [
       "outline-selection"
+      "minimap-git-diff"
+      "atom-html-preview"
+      "minimap-autohide"
+      "activate-power-mode"
     ]
     telemetryConsent: "no"
     themes: [
@@ -9,6 +16,7 @@
       "dark-side-of-the-moon-syntax"
     ]
   editor:
+    fontSize: 13
     invisibles: {}
     lineHeight: 1.4
     preferredLineLength: 999
@@ -20,17 +28,30 @@
     userId: "9584d98e-c58b-450b-b6d9-001d23f045d8"
   fonts:
     fontFamily: "Roboto Mono"
+  "highlight-selected":
+    highlightBackground: true
+    lightTheme: true
+  "markdown-preview":
+    useGitHubStyle: true
+  "markdown-writer": {}
   minimap:
     plugins:
       "git-diff": true
       "git-diffDecorationsZIndex": 0
       "minimap-autohide": true
       "minimap-autohideDecorationsZIndex": 0
+  "outline-selection":
+    outlineColor: "#ffffff"
   pigments:
     markerType: "background"
+    sortPaletteColors: "by name"
+  "split-diff":
+    ignoreWhitespace: true
   "sync-settings":
-    _lastBackupHash: "415f75c20f0fc4a29ee725f539f83db32899d6b5"
-    gistId: "2bcc22cea2acf4c2905c3c6437a31e58"
-    personalAccessToken: "44fc067fe19e566d291a244e53cd269156775f11"
+    _lastBackupHash: "1cbc5bda84ec8a6763c8bb26b190e193dd361a08"
+    gistId: "dacf2460e5b8b5daeb3e40b6196c4b66"
+    personalAccessToken: "fc6660e6574cb5e2a5eb34268f38ca01a4ed819b"
+  "tool-bar": {}
   welcome:
     showOnStartup: false
+  wordcount: {}
