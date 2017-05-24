@@ -1,4 +1,9 @@
 "*":
+  "atom-beautify":
+    general:
+      beautifyEntireFileOnSave: false
+    html:
+      preserve_newlines: false
   "color-picker":
     preferredFormat: "HEX"
   core:
@@ -9,6 +14,10 @@
       "atom-html-preview"
       "minimap-autohide"
       "activate-power-mode"
+      "markdown-scroll-sync"
+      "tool-bar"
+      "tool-bar-markdown-writer"
+      "markdown-preview-plus"
     ]
     telemetryConsent: "no"
     themes: [
@@ -33,6 +42,9 @@
     lightTheme: true
   "markdown-preview":
     useGitHubStyle: true
+  "markdown-preview-enhanced":
+    exportPDFPageFormat: "A4"
+    printBackground: false
   "markdown-writer": {}
   minimap:
     plugins:
@@ -48,7 +60,7 @@
   "split-diff":
     ignoreWhitespace: true
   "sync-settings":
-    _lastBackupHash: "1cbc5bda84ec8a6763c8bb26b190e193dd361a08"
+    _lastBackupHash: "759c4ddf7811cd5ed6b205bca91c3aed2a6fe4c2"
     gistId: "dacf2460e5b8b5daeb3e40b6196c4b66"
     personalAccessToken: "fc6660e6574cb5e2a5eb34268f38ca01a4ed819b"
   "tool-bar": {}
