@@ -47,7 +47,6 @@
     exportPDFPageFormat: "A4"
     mermaidTheme: "mermaid.forest.css"
     openPreviewPaneAutomatically: false
-    pandocPath: "C:\\Users\\Ohki\\AppData\\Local\\Pandoc\\pandoc.exe"
     pdfOpenAutomatically: false
     printBackground: false
   "markdown-writer": {}
