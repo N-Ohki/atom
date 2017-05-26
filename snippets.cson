@@ -19,3 +19,25 @@
 # If you are unfamiliar with CSON, you can read more about it in the
 # Atom Flight Manual:
 # http://flight-manual.atom.io/using-atom/sections/basic-customization/#_cson
+
+'.source.gfm':
+  'front-matter':
+    'prefix': 'front'
+    'body': """
+---
+title:  "タイトル"
+author: "名前"
+date:   2017/05/25
+output: word_document
+---
+"""
+
+'.source.gfm':
+  'mermaid graph':
+    'prefix': 'graph'
+    'body': """
+```mermaid
+graph ${1:TD}
+  A --> B
+```
+"""
